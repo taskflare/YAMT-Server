@@ -14,6 +14,7 @@ Current:
 `Query`
 - user(id)
 - projects
+
 `Mutations`
 - addUser(name, email)
 - addProject(name, userId)
