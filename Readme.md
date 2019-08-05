@@ -1,9 +1,19 @@
 # YAMT-Server
 
-## Technologies
-YAMT-Server uses the following...
+## Tech
+Current:
 - Express
-- GraphQL
 - MongoDB
-    - MongoDB is hosted on Atlas (DAAS platform)
-    - Cluster with 3 nodes
+- GraphQL
+
+## Models
+- User
+- Project
+
+## Queries
+`Query`
+- user(id)
+- projects
+`Mutations`
+- addUser(name, email)
+- addProject(name, userId)
